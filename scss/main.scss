@@ -79,7 +79,7 @@ main{
 .bio-image{
     grid-area: bioimage;
     margin:auto;
-    border-radius: 50%;
+    border-radius: 80%;
     border: $secondary-color 3px solid;
 }
 
@@ -114,7 +114,8 @@ main{
     
     img{
         width:100%;
-        border:3px #fff solid;
+        
+        border:3px #fff;
         // width: 350px;
         // height: 450px;
 
@@ -125,6 +126,7 @@ main{
             
         }
     }
+    
 }
 
 //Contact Page
@@ -189,5 +191,9 @@ main{
     height:250px;
     width:150px;
 }
-
+.container{
+    float:right;
+    width:250px;
+    height: 300px;
+}
 @import'mobile';

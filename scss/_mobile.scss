@@ -82,4 +82,21 @@
         grid-template-columns:1fr;
     }
 }
+@include mediaXs {
+    main #home h1 {
+        margin-top:10vh;
+    }
+    .about-info{
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+        grid-template-columns: 1fr;
+    }
+    .projects{
+        grid-template-columns:1fr;
+    }
+}
 
