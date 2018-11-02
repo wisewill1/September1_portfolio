@@ -186,11 +186,91 @@
             left: auto;
             top: 30%;
         }
+
+
+                .social-links{
+list-style: none;
+float: right;
+
+}
+/*.social-links li{
+	margin-right:px;
+	z-index: 2;
+}*/
+.social-links li a:link,
+.social-links li a:visited{
+text-decoration: none;
+border:0px;	
+color:#888;
+font-size:160%;
+}
+.footer-nav li a:active,
+.footer-nav li a:hover{
+    color: #ddd;
+	transition: background-color .3s, border .3s , color .3s;
+}
+
+
+.facebook:active,
+.facebook:hover{
+	color:#3b5998;
+	transition: background-color .3s, border .3s , color .3s;
+}
+
+.twitter:active,
+.twitter:hover{
+	color:#00aced;
+	transition: background-color .3s, border .3s , color .3s;
+}
+
+.google:active,
+.google:hover{
+	color:#DB4437;
+	transition: background-color .3s, border .3s , color .3s;
+}
+
+.instagram:active,
+.instagram:hover{
+	color: #F94877
+;
+	transition: background-color .3s, border .3s , color .3s;
+}
+
+.main-nav{
+	float:right;
+	list-style: none;
+	margin-top: 60px;
+	
+}
+.main-nav li{
+	display: inline-block;
+	margin-left:  30px;
+
+
+
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding:8px 0;
+	color: black
+	text-decoration:none;
+	text-transform: uppercase;
+    font-size:90%; 
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+
+}
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+    <!-- <nav class="navbar navbar-dark navbar-expand-md fixed-top">
         <a href="#" class="navbar-brand">
             <i class="fa fa-camera-retro" aria-hidden="true"></i> Donnan Forge and Timber</a>
         <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -231,11 +311,73 @@
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
-                    <!-- <li><a href="#"><i class="fab fa-youtube"></i> </a></li>
-      <li><a href="#"><i class="fab fa-linkedin"></i> </a></li> -->
+                    
                 </div>
             </ul>
         </div>
+    </nav> -->
+
+
+
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+        <a href="#" class="navbar-brand">
+            <i class="fa fa-camera-retro" aria-hidden="true"></i> Donnan Forge and Timber</a>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Visit Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">FAQ</a>
+                </li>
+    
+    
+                <!-- SOCIAL LINKS -->
+                <!-- <div class="col-lg-6">
+     -->
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com">
+                            <i class="fab fa-facebook-f facebook"></i>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="https://www.twitter.com">
+                            <i class="fab fa-twitter twitter"></i>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="https://www.google.com">
+                            <i class="fab fa-google google"></i>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="https://www.Instagram.com">
+                            <i class="fab fa-instagram instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    
+    
     </nav>
     <!-- Jumbotron -->
     <!-- <section id="top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center"> -->
